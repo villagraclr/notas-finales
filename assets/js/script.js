@@ -20,7 +20,7 @@ function uploadRatings(){
             }
         }while (j <=3);
         var cellTable = document.getElementById('rating'+i+""+j);
-        cellTable.innerHTML = (total/3).toFixed(2);
+        cellTable.innerHTML = (total/3).toFixed(1);
         total = 0;
     }
 }
